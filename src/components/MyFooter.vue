@@ -54,7 +54,7 @@ import { RouterLink } from "vue-router";
                 href="https://www.linkedin.com/in/lis-fredriksson-78688893/"
                 class="me-4 link-secondary"
               >
-                <img class="fb-icon" src="linkedin.png" />
+                <img class="fb-icon" src="../assets/linkedin.png" />
               </a>
             </p>
             <p>
@@ -62,7 +62,7 @@ import { RouterLink } from "vue-router";
                 href="https://www.facebook.com/lis.fredriksson/"
                 class="me-4 link-secondary"
               >
-                <img class="fb-icon" src="facebook.png" />
+                <img class="fb-icon" src="../assets/facebook.png" />
               </a>
             </p>
             <p>
