@@ -4,7 +4,7 @@
   <div class="d-flex justify-content-center" id="card-div">
     <div class="card-box">
       <div class="card" style="width: 18rem">
-        <img src="baby-6578335_640.jpg" class="card-img-top" alt="baby feet" />
+        <img src="../assets/baby-6578335_640.jpg" class="card-img-top" alt="baby feet" />
         <div class="card-body">
           <h1 class="card-text">Populäraste flicknamnen 2022</h1>
           <li v-for="item in $store.state.girls22">
@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="card" style="width: 18rem">
-        <img src="baby-623417_640.jpg" class="card-img-top" alt="baby feet" />
+        <img src="../assets/baby-623417_640.jpg" class="card-img-top" alt="baby feet" />
         <div class="card-body">
           <h1 class="card-text">Populäraste pojknamnen 2022</h1>
           <li v-for="item in $store.state.boys22">

@@ -79,7 +79,7 @@ export default {
           id="search-addon"
           @click="onClick"
         >
-          <img src="search.png" id="search-icon" />
+          <img src="../assets/search.png" id="search-icon" />
         </span>
       </div>
       <tr
