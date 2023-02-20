@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
+import { RouterLink} from "vue-router";
 </script>
 
 <template>
@@ -103,7 +103,6 @@ import { RouterLink, RouterView } from "vue-router";
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
-  <RouterView />
 </template>
 
 <style>
