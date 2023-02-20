@@ -1,0 +1,78 @@
+{
+  "POJKNAMN": {
+    "2022": [
+      "1. William",
+      "2. Liam",
+      "3. Noah",
+      "4. Hugo",
+      "5. Oliver",
+      "6. Lucas",
+      "7. Nils",
+      "8. Matteo",
+      "9. Valter",
+      "10. August"
+    ],
+    "2021": [
+      "1. Noah",
+      "2. William",
+      "3. Liam",
+      "4. Hugo",
+      "5. Lucas",
+      "6. Adam",
+      "7. Oliver",
+      "8. Matteo",
+      "9. Frans",
+      "10. Elias"
+    ],
+    "2020": [
+      "1. Noah",
+      "2. William",
+      "3. Hugo",
+      "4. Lucas",
+      "5. Liam",
+      "6. Oscar",
+      "7. Oliver",
+      "8. Matteo",
+      "9. Elias",
+      "10. Adam"
+    ]
+  },
+  "FLICKNAMN": {
+    "2022": [
+      "1. Astrid",
+      "2. Maja",
+      "3. Alma",
+      "4. Vera",
+      "5. Freja",
+      "6. Leah",
+      "7. Ella",
+      "8. Alice",
+      "9. Selma",
+      "10. Lilly"
+    ],
+    "2021": [
+      "1. Alice",
+      "2. Maja",
+      "3. Vera",
+      "4. Alma",
+      "5. Selma",
+      "6. Elsa",
+      "7. Lilly",
+      "8. Ella",
+      "9. Astrid",
+      "10. Wilma"
+    ],
+    "2020": [
+      "1. Alice",
+      "2. Maja",
+      "3. Elsa",
+      "4. Astrid",
+      "5. Wilma",
+      "6. Freja",
+      "7. Olivia",
+      "8. Selma",
+      "9. Alma",
+      "10. Ella"
+    ]
+  }
+}
