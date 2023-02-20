@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
+</script>
 
 <template>
   <div class="d-flex justify-content-center" id="card-div">
@@ -25,14 +27,15 @@
   </div>
   <div class="link-box">
     <h1 id="link-header">
-      Se populäraste namn från tidigare år<a
+      Se populäraste namn från tidigare år<RouterLink
         class="router-link"
-        href="/namnguiden/Top10"
+        to="/namnguiden/Top10"
       >
-        Här</a
+        Här</RouterLink
       >
     </h1>
   </div>
+  <RouterView />
 </template>
 
 <script>

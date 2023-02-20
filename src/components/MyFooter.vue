@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink } from "vue-router";
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
@@ -27,19 +27,19 @@ import { RouterLink } from "vue-router";
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">LÄNKAR</h6>
             <p>
-              <a href="/namnguiden/Inspiration" class="text-reset">Artiklar</a>
+              <RouterLink to="/namnguiden/Inspiration" class="text-reset">Artiklar</RouterLink>
             </p>
             <p>
-              <a href="/namnguiden/" class="text-reset">HEM</a>
+              <RouterLink to="/namnguiden/" class="text-reset">HEM</RouterLink>
             </p>
             <p>
-              <a href="/namnguiden/Generator" class="text-reset"
-                >Namngenerator</a
+              <RouterLink to="/namnguiden/Generator" class="text-reset"
+                >Namngenerator</RouterLink
               >
             </p>
             <p>
-              <a href="/namnguiden/Namnsdagar" class="text-reset"
-                >Dagens namnsdagar</a
+              <RouterLink to="/namnguiden/Namnsdagar" class="text-reset"
+                >Dagens namnsdagar</RouterLink
               >
             </p>
           </div>
@@ -103,6 +103,7 @@ import { RouterLink } from "vue-router";
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
+  <RouterView />
 </template>
 
 <style>

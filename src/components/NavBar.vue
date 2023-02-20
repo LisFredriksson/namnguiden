@@ -1,10 +1,10 @@
 <script setup>
-import { RouterView } from "vue-router";
+import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/namnguiden/">NAMNGUIDEN</a>
+      <RouterLink class="navbar-brand" to="/namnguiden/">NAMNGUIDEN</RouterLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -19,21 +19,21 @@ import { RouterView } from "vue-router";
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a
+            <RouterLink
               class="nav-link"
               aria-current="page"
-              href="/namnguiden/Namnsdagar"
-              >Namnsdagar</a
+              to="/namnguiden/Namnsdagar"
+              >Namnsdagar</RouterLink
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/namnguiden/Top10">Top10</a>
+            <RouterLink class="nav-link" to="/namnguiden/Top10">Top10</RouterLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/namnguiden/Generator">Generator</a>
+            <RouterLink class="nav-link" to="/namnguiden/Generator">Generator</RouterLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/namnguiden/Inspiration">Inspiration</a>
+            <RouterLink class="nav-link" to="/namnguiden/Inspiration">Inspiration</RouterLink>
           </li>
         </ul>
       </div>
