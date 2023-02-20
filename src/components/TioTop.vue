@@ -34,7 +34,7 @@ export default {
           {{ key }}
         </option>
       </select>
-      <img src="feet-619399_640.jpg" class="card-img-top" alt="baby feet" />
+      <img src="../assets/feet-619399_640.jpg" class="card-img-top" alt="baby feet" />
       <div class="card-body">
         <h1 class="card-text">POJKNAMN</h1>
         <h2>{{ boynameinput }}</h2>
@@ -48,7 +48,7 @@ export default {
         <option display selected value>VÄLJ ÅR</option>
         <option v-for="(value, key) in keyValueGirls">{{ key }}</option>
       </select>
-      <img src="baby-6578335_640.jpg" class="card-img-top" alt="baby girl" />
+      <img src="../assets/baby-6578335_640.jpg" class="card-img-top" alt="baby girl" />
       <div class="card-body">
         <h1 class="card-text">FLICKNAMN</h1>
         <h2>{{ girlnameinput }}</h2>
