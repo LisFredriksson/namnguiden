@@ -27,18 +27,18 @@ import { RouterLink} from "vue-router";
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">LÄNKAR</h6>
             <p>
-              <RouterLink to="/namnguiden/Inspiration" class="text-reset">Artiklar</RouterLink>
+              <RouterLink to="/Inspiration" class="text-reset">Artiklar</RouterLink>
             </p>
             <p>
-              <RouterLink to="/namnguiden/" class="text-reset">HEM</RouterLink>
+              <RouterLink to="/" class="text-reset">HEM</RouterLink>
             </p>
             <p>
-              <RouterLink to="/namnguiden/Generator" class="text-reset"
+              <RouterLink to="/Generator" class="text-reset"
                 >Namngenerator</RouterLink
               >
             </p>
             <p>
-              <RouterLink to="/namnguiden/Namnsdagar" class="text-reset"
+              <RouterLink to="/Namnsdagar" class="text-reset"
                 >Dagens namnsdagar</RouterLink
               >
             </p>

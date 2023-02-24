@@ -29,7 +29,7 @@ import { RouterLink} from "vue-router";
     <h1 id="link-header">
       Se populäraste namn från tidigare år<RouterLink
         class="router-link"
-        to="/namnguiden/Top10"
+        to="/Top10"
       >
         Här</RouterLink
       >

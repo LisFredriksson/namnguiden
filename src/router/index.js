@@ -11,27 +11,27 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/namnguiden/',
+      path: '/',
       name: 'Namnguiden',
       component: Namnguiden
     },
     {
-      path: '/namnguiden/Namnsdagar',
+      path: '/Namnsdagar',
       name: 'Namnsdagar',
       component: Namnsdagar
     },
     {
-      path: '/namnguiden/Generator',
+      path: '/Generator',
       name: 'Generator',
       component: Generator
     },
     {
-      path: '/namnguiden/Inspiration',
+      path: '/Inspiration',
       name: 'Inspiration',
       component: Inspiration
     },
     {
-      path: '/namnguiden/Top10',
+      path: '/Top10',
       name: 'Top',
       component: TioITop
     }

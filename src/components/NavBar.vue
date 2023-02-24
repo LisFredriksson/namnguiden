@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from "vue-router";
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <RouterLink class="navbar-brand" to="/namnguiden/">NAMNGUIDEN</RouterLink>
+      <RouterLink class="navbar-brand" to="/">NAMNGUIDEN</RouterLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -23,18 +23,18 @@ import { RouterLink, RouterView } from "vue-router";
             <RouterLink
               class="nav-link"
               aria-current="page"
-              to="/namnguiden/Namnsdagar"
+              to="/Namnsdagar"
               >Namnsdagar</RouterLink
             >
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/namnguiden/Top10">Top10</RouterLink>
+            <RouterLink class="nav-link" to="/Top10">Top10</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/namnguiden/Generator">Generator</RouterLink>
+            <RouterLink class="nav-link" to="/Generator">Generator</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/namnguiden/Inspiration">Inspiration</RouterLink>
+            <RouterLink class="nav-link" to="/Inspiration">Inspiration</RouterLink>
           </li>
         </ul>
       </div>

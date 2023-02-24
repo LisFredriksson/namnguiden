@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     async generateName() {
-      const res = await fetch("searchnames.json");
+      const res = await fetch("searchnames.json")
       const val = await res.json();
       this.randomname = val;
       this.boyname = val.boynames[Math.floor(Math.random() * 11755 + 1)];
