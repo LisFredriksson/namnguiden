@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     async generateName() {
-      const res = await fetch("src/assets/searchnames.json");
+      const res = await fetch("/searchnames.json");
       const val = await res.json();
       this.randomname = val;
       this.boynames = val.boynames;

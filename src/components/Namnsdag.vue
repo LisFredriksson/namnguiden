@@ -17,19 +17,19 @@ export default {
   },
   methods: {
     async generateName() {
-      const res = await fetch("src/assets/namnsdagar.json");
+      const res = await fetch("./namnsdagar.json");
       const val = await res.json();
       this.namnsdagIdag = val[this.$store.state.date];
     },
     async nextDay() {
       this.$store.commit("increment");
-      const res = await fetch("src/assets/namnsdagar.json");
+      const res = await fetch("./namnsdagar.json");
       const val = await res.json();
       this.namnsdagIdag = val[this.$store.state.date];
     },
     async previousDay() {
       this.$store.commit("previous");
-      const res = await fetch("src/assets/namnsdagar.json");
+      const res = await fetch("./namnsdagar.json");
       const val = await res.json();
       this.namnsdagIdag = val[this.$store.state.date];
     },
