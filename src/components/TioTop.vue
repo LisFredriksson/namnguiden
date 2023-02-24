@@ -13,7 +13,7 @@ export default {
     };
   },
   created() {
-    fetch("/names.json")
+    fetch("src/assets/names.json")
       .then((response) => response.json())
       .then((data) => {
         this.keyValueGirls = data.FLICKNAMN;
