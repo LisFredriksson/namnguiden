@@ -44,15 +44,12 @@ import { RouterLink} from "vue-router";
             </p>
           </div>
           <!-- Grid column -->
-
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4"></h6>
             <p>
               <a
                 href="https://www.linkedin.com/in/lis-fredriksson-78688893/"
-                class="me-4 link-secondary"
               >
                 <img class="fb-icon" src="../assets/linkedin.png" />
               </a>
@@ -60,7 +57,6 @@ import { RouterLink} from "vue-router";
             <p>
               <a
                 href="https://www.facebook.com/lis.fredriksson/"
-                class="me-4 link-secondary"
               >
                 <img class="fb-icon" src="../assets/facebook.png" />
               </a>
@@ -113,4 +109,5 @@ import { RouterLink} from "vue-router";
 #my-footer {
   margin-top: 30vh;
 }
+
 </style>

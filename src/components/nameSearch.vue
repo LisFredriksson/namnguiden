@@ -141,6 +141,10 @@ export default {
   .search-div {
     width: 30vh;
   }
+
+  .listdiv {
+    width: 30vh;
+  }
 }
 
 .search-container {
