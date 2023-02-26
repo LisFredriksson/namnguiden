@@ -68,6 +68,7 @@ export default {
   color: black;
   border-radius: 8px;
   background-color: white;
+  border: solid black;
   margin: 10px;
   padding: 5px 10px;
 }
