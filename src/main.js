@@ -6,7 +6,6 @@ import axios from 'axios'
 import App from './App.vue'
 import router from './router/index'
 import store from './store'
-
 import './assets/base.css'
 
 const app = createApp(App)

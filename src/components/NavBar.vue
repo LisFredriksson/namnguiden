@@ -1,7 +1,7 @@
 <script setup>
-
-import { RouterLink, RouterView } from "vue-router";
+  import { RouterLink, RouterView } from 'vue-router'
 </script>
+
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -20,10 +20,7 @@ import { RouterLink, RouterView } from "vue-router";
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <RouterLink
-              class="nav-link"
-              aria-current="page"
-              to="/Namnsdagar"
+            <RouterLink class="nav-link" aria-current="page" to="/Namnsdagar"
               >Namnsdagar</RouterLink
             >
           </li>
@@ -34,7 +31,9 @@ import { RouterLink, RouterView } from "vue-router";
             <RouterLink class="nav-link" to="/Generator">Generator</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/Inspiration">Inspiration</RouterLink>
+            <RouterLink class="nav-link" to="/Inspiration"
+              >Inspiration</RouterLink
+            >
           </li>
         </ul>
       </div>
